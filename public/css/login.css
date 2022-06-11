@@ -1,0 +1,70 @@
+/*.login{
+    width: 400px;
+    margin: 340px;
+    margin:auto;
+    padding: 20px 30px;
+    color:white;
+ }
+ .login .controls{
+     width: 100%;
+     border: 1px solid white;
+     font-size: 14px;
+     color: white;
+     margin-bottom: 10px ;
+     background:white;
+     padding: 11px 10px;
+     
+ }
+ .login .controls a:hover{
+     color:#0044AA;
+ }
+ .login .botons{
+     width: 100%;
+     background:#0687d3;
+     border: none;
+     color: white;
+     padding: 12px;
+     font-size: 16px;
+     height: 40px;
+     margin-bottom: 16px;
+ }*/
+
+ .login{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+ }
+ .login form{
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+ }
+ .login form .login-info{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     padding:0.35rem 0.25rem;
+     margin: 0.5rem 0.25rem;
+ }
+.login form .login-info input{
+    width: 100%;
+    padding: 0.35rem 0.25rem;
+    margin-bottom: 0.25rem;
+    border: 1px solid #cecece;
+    border-radius: 0.25rem;
+}
+
+.login form .login-info label{
+    margin-bottom: 0.5rem;
+}
+.login form .login-info .botton-enviar{
+    border: 1px solid #184fa3;
+    background-color: #266fdd;
+    color: aliceblue;
+}
+.login form .login-info .botton-enviar:hover{
+    background-color:rgb(13, 13, 235);
+}
