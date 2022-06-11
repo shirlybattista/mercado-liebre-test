@@ -23,7 +23,7 @@
 
 .register-form form .form  input {
     width: 100%;
-    padding: 0.35rem 0.25rem;
+    padding:10px;
     border-radius: 0.25rem;
     margin-bottom: 0.25rem;
     border: 1px solid #cecece;
@@ -31,7 +31,7 @@
 
 .register-form form .form  label {
     margin-bottom: 0.5rem;
-    font-size: 0.77rem;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@
 }
 
 
-.register-form form .form .btn-enviar {
+.register-form  form .form .btn-enviar {
     background-color: #2471e6;
     border: 1px solid #0949aa;
     color: #fefefe;
